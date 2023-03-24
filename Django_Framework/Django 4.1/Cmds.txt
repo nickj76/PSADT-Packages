@@ -1,0 +1,19 @@
+Install:
+
+C:\Program Files\Python310\Scripts\pip install Django-4.1-py3-none-any.whl
+
+Uninstall:
+
+pip uninstall Django -y
+
+Detection:
+
+custom script
+
+Optional - (check to see what version of Djngo is installed)
+py -m django --version
+
+
+
+
+
