@@ -1,0 +1,15 @@
+Install:
+
+Deploy-Application.EXE Install NonInteractive
+
+Uninstall:
+
+Deploy-Application.EXE Uninstall NonInteractive
+
+Detection:
+
+custom script
+
+if (Test-Path "C:\Program Files\Audacity\Audacity.exe") {
+    Write-Host "Found it!"
+}
