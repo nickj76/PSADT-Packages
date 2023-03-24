@@ -1,0 +1,1 @@
+unpack the zip installer into here, the MSI is awful

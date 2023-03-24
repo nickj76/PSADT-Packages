@@ -1,0 +1,13 @@
+Install:
+
+.\ServiceUI.exe -Process:explorer.exe Deploy-Application.exe 
+
+Uninstall:
+
+.\ServiceUI.exe -Process:explorer.exe Deploy-Application.exe -DeploymentType uninstall
+
+Detection:
+
+custom script
+
+Set-RegistryKey -Key HKEY_LOCAL_MACHINE\SOFTWARE\Intune_Installations -Name 'pycharm-community-2022.2.3' -Value '"Installed"' -Type String

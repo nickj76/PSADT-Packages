@@ -1,0 +1,11 @@
+Install:
+
+Deploy-Application.EXE Install NonInteractive
+
+Uninstall:
+
+Deploy-Application.EXE Uninstall NonInteractive
+
+Detection:
+Set-RegistryKey -Key HKEY_LOCAL_MACHINE\SOFTWARE\SCCM_Installations -Name 'SQL Management Studio 18.12.1' -Value '"Installed"'-Type String
+

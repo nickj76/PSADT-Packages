@@ -1,0 +1,10 @@
+Install:
+
+.\ServiceUI.exe -Process:explorer.exe Deploy-Application.exe 
+
+Uninstall:
+
+.\ServiceUI.exe -Process:explorer.exe Deploy-Application.exe -DeploymentType uninstall
+
+Detection:
+Set-RegistryKey -Key HKEY_LOCAL_MACHINE\SOFTWARE\Intune_Installations -Name 'Zotero-6.0.15' -Value '"Installed"'-Type String

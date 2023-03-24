@@ -1,0 +1,12 @@
+Install:
+
+Deploy-Application.EXE Install NonInteractive
+
+Uninstall:
+
+Deploy-Application.EXE Uninstall NonInteractive
+
+Detection:
+
+MSI Product Code
+{90140000-00D1-0409-1000-0000000FF1CE}

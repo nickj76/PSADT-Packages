@@ -1,0 +1,7 @@
+<FileZilla3>
+  <Settings>
+   <Setting name="Config Location">$APPDATA/FileZilla/</Setting>
+   <Setting name="Greeting version">9.9.9</Setting>
+   <Setting name="Disable update check">1</Setting>
+  </Settings>
+</FileZilla3>

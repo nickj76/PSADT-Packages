@@ -1,0 +1,11 @@
+Install:
+
+Deploy-Application.EXE Install NonInteractive
+
+Uninstall:
+
+Deploy-Application.EXE Uninstall NonInteractive
+
+Detection:
+Set-RegistryKey -Key HKEY_LOCAL_MACHINE\SOFTWARE\SCCM_Installations -Name 'KiCad-6.0.7' -Value '"Installed"'-Type String
+
