@@ -69,7 +69,7 @@ Try {
 	[string]$appRevision = '01'
 	[string]$appScriptVersion = '1.0.0'
 	[string]$appScriptDate = '10/08/2022'
-	[string]$appScriptAuthor = 'Tom Emden'
+	[string]$appScriptAuthor = ''
 	##*===============================================
 	## Variables: Install Titles (Only set here to override defaults set by the toolkit)
 	[string]$installName = ''

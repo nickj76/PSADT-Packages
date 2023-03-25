@@ -69,7 +69,7 @@ Try {
 	[string]$appRevision = '01'
 	[string]$appScriptVersion = '1.0.0'
 	[string]$appScriptDate = '04/08/2022'
-	[string]$appScriptAuthor = 'Gordon Coltart'
+	[string]$appScriptAuthor = ''
 	##*===============================================
 	## Variables: Install Titles (Only set here to override defaults set by the toolkit)
 	[string]$installName = 'Capture 2022.0.25'
